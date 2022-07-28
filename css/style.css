@@ -19,7 +19,6 @@ html, body {
     text-align: end;
     font-size: 11vw;
     margin-bottom: 0;
-    padding-top: 5%;
 }
 
 #sub-main{
@@ -29,17 +28,25 @@ html, body {
 }
 
 #about{
+    background-color: #EED180;
     text-align: center;
     padding: 3% 10% 30% 10%;
 }
 
 #activities{
+    display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #ef8172;
     color: white;
     padding: 3% 0 3% 0;
     text-align: center;
 }
 
+#contact{
+    
+}
 #footerr{
     text-align: center;
     padding: 3% 0 1% 0;
@@ -48,4 +55,9 @@ html, body {
 #footer{
     
     text-align: center;
+}
+
+.buffer{
+    text-align: end;
+    padding-top: 20%;
 }
