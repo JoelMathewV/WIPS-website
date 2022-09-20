@@ -29,6 +29,10 @@ html, body {
 
 #about{
     background-color: #EED180;
+    /* color: white; */
+    font-size: x-large;
+    font-family: ;
+
     text-align: center;
     padding: 3% 10% 30% 10%;
 }
@@ -43,7 +47,9 @@ html, body {
     padding: 3% 0 3% 0;
     text-align: center;
 }
-
+h5{
+    padding: 0 15% 0 15%;
+}
 #contact{
     
 }
