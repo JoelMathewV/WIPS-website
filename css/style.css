@@ -5,6 +5,14 @@ html, body {
     padding:0;
 }
 
+@media screen and (max-width: 600px) {
+    img.ieee {
+      width: 100px;
+      height: 49px;
+      /* padding: 70px 0 0; */
+    }
+  }
+
 #title{
     background-color: #ff4c68;
     display: block;
