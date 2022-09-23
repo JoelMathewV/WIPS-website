@@ -5,7 +5,7 @@ html, body {
     padding:0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     img.ieee {
       width: 100px;
       height: 49px;
@@ -13,7 +13,26 @@ html, body {
     }
   }
 
-#title{
+  @media screen and (max-width: 768px) {
+    section.title {
+        background-color: #ff4c68;
+        color: white;
+        padding: 3% 7% 3% 7%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    section.title {
+        background-color: #ff4c68;
+    display: block;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    color: white;
+    padding: 3% 10% 3% 10%;
+    }
+  }
+/* #title{
     background-color: #ff4c68;
     display: block;
     box-sizing: border-box;
@@ -21,7 +40,10 @@ html, body {
     width:100%;
     color: white;
     padding: 3% 10% 3% 10%;
-}
+} */
+
+
+
 @media screen and (min-width: 601px) {
     h1.main {
       font-size: 120px;
@@ -33,21 +55,18 @@ html, body {
       font-size: 20px;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     h1.main {
       font-size: 80px;
       /* padding: 70px 0 0; */
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     h1.sub-main {
       font-size: 20px;
     }
   }
 
-#women{
-
-}
 #main{
     text-align: end;
     /* font-size: 9vw; */
