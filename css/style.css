@@ -28,7 +28,7 @@ html, body {
   @media screen and (max-width: 600px) {
     h1.main {
       font-size: 80px;
-      padding: 70px 0 0;
+      /* padding: 70px 0 0; */
     }
   }
   @media screen and (max-width: 600px) {
